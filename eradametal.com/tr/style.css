@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Titillium+Web:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    color: #ffffff;
+    background-color: rgba(44, 45, 68, 255);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.logo {
+    margin-top: 30px;
+    width: 170px;
+    height: 60px;
+}
+
+
+
+.dil {
+    margin-left: 100px;
+
+}
+
+.container {
+    width: 89%;
+    height: 800px;
+    background-color: rgba(44, 45, 68, 255);
+    padding-left: 8%;
+    padding-right: 8%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    line-height: 16px;
+
+}
+
+.btn {
+    padding: 12px 36px;
+    font-size: 12px;
+    font-weight: 650;
+    margin-top: 60px;
+    margin-left: 90px;
+    cursor: pointer;
+    color: black(11, 10, 10);
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: 1px solid black;
+    transition: ease 0.4s;
+    text-decoration: none;
+    flex-wrap: wrap;
+
+
+}
+
+.btn:hover {
+    background-color: rgba(160, 149, 149, 0.634);
+    color: rgb(14, 12, 12);
+    border-color: rgb(137, 137, 137);
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    column-gap: 15px;
+    flex-wrap: wrap;
+
+
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    transition: ease 0.4s;
+}
+
+
+.navbar ul li a:hover {
+    color: grey;
+
+}
+
+
+.row {
+    display: flex;
+    column-gap: 10px;
+    height: 80%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-basis: 100%;
+
+}
+
+
+
+.col h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 254, 254);
+    font-size: 35px;
+
+}
+
+.desc {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50%;
+    font-size: 25px;
+}
+
+.cards {
+    margin-left: 13%;
+    max-width: 80%;
+}
+
+.card {
+    width: 180px;
+    height: 120px;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    border: 1px solid white;
+    position: relative;
+    transition: ease 0.4s;
+    flex-wrap: wrap;
+    flex-basis: 300px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card .card-head {
+    background-color: grey(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 6px;
+    padding: 6px;
+
+
+
+}
+
+.card .card-bottom {
+    position: absolute;
+    bottom: 26px;
+
+}
+
+.card.card-1 {
+    background-image: url(/eradametal.com/img/anasayfa2.png);
+
+
+
+}
+
+.card.card-2 {
+    background-image: url(/eradametal.com/img/anasayfa1.png);
+
+
+}
+
+.card.card-3 {
+    background-image: url(/eradametal.com/img/anasayfa3.png);
+
+}
+
+.card.card-4 {
+    background-image: url(/eradametal.com/img/anasayfa4.png);
+
+}
+
+
+.urunler-baslık {
+    display: inline-block;
+    margin-top: 60x;
+    padding-left: 10px;
+    padding-top: 30px;
+    background-size: cover;
+
+
+}
+
+.urunler {
+
+    flex-wrap: wrap;
+    flex-basis: 300px;
+    margin-top: 10px;
+    padding-left: 5px;
+    background-size: cover;
+
+
+}
+
+.sagına {
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+.urunler p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.urun1 {
+    display: inline-block;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 20px;
+
+}
+
+
+.urun2 {
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 20px;
+
+
+}
+
+.urun3 {
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 20px;
+
+}
+.urun5 {
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 20px;
+
+
+}
+
+.urun6 {
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 20px;
+
+
+}
+
+.urun7 {
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 20px;
+
+
+
+}
+
+.urun8 {
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 20px;
+
+
+
+}
+
+.urun9 {
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 20px;
+
+
+}
+
+.urun10 {
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 20px;
+
+
+
+}
+
+.urun11 {
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 20px;
+
+
+
+}
+
+.urun12 {
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 20px;
+
+
+
+}
+
+.urun13 {
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 20px;
+
+
+
+}
+
+.urun14 {
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    border: 1px solid grey;
+    border-radius: 20px;
+
+
+
+}
+
+h2 {
+    color: #ededed81;
+}
+
+.misyon {
+    margin-top: 50px;
+
+}
+
+.misyonh2 {
+    color: #ededed81;
+}
+
+.misyonp {
+    margin-top: 15px;
+    margin-right: 150px;
+}
+
+.vizyon {
+    margin-top: 40px;
+
+}
+
+.vizyonh2 {
+    color: #ededed81;
+}
+
+.vizyonp {
+
+    font-size: 20px;
+    margin-top: 15px;
+    margin-right: 150px;
+
+}
+
+.vizyon .is {
+    font-size: 20px;
+}
+
+.foto .foto1 {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+    width: 400px;
+    height: 200px;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+.foto .foto2 {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+    width: 400px;
+    height: 200px;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+.foto .foto3 {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    background-size: cover;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+    width: 400px;
+    height: 200px;
+    float: left;
+    padding: 0 10px 10px 0;
+}
+
+
+
+
+.contact {
+    height: 100vh;
+    width: 100%;
+    margin-left: 100px;
+    overflow: hidden;
+    display: inline-block;
+
+}
+
+
+.contact-area {
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 10px;
+
+
+}
+
+.cont-left {
+    width: 40%;
+    padding: 3rem;
+}
+
+.cont-top {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ffffff;
+}
+
+.cont-element {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.cont-element i {
+    color: #ffffff;
+    padding: 0.7rem;
+    border-radius: 40%;
+    border: 2px solid #ffffff;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: all 0.4s ease;
+}
+
+.cont-element:hover i {
+    background-color: #ffffff;
+    color: #011627;
+}
+
+.cont-element a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cont-bottom {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont-bottom a {
+    color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #7a7878;
+    border-radius: 50%;
+}
+
+.cont-bottom a:hover {
+    color: #181818;
+    background-color: #ffffff;
+}
+
+.konum {
+    margin-top: 20px;
+    flex-basis: 60%;
+    flex-wrap: wrap;
+}
